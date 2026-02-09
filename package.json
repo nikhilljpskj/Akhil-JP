@@ -5,6 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "postinstall": "node -e \"console.log('NEXT:', require('next/package.json').version)\"",
     "lint": "next lint"
   },
   "dependencies": {
